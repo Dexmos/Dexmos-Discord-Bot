@@ -1,0 +1,256 @@
+{
+    "SoundCommands" : [
+	{
+	    "command": "dshellodark",
+		"path": "https://www.myinstants.com/media/sounds/hello-darkness-my-old-friend-sound-effect-perfect-cut-mp3cut.mp3",
+		"description": "Hello darkness my old friend",
+		"volume": 0.25
+	},
+	{
+	    "command": "dsard",
+		"path": "https://www.myinstants.com/media/sounds/sardoche-mais-voila-mais-cetait-sur-en-fait_s9qhFsx.mp3",
+		"description": "Sardoche mais c'était sur enfaite",
+		"volume": 0.25
+    },
+    {
+	    "command": "dshelload",
+		"path": "https://www.myinstants.com/media/sounds/untitled_JkqTO9f.mp3",
+		"description": "Hello form Adele song",
+		"volume": 0.25
+    },
+    {
+	    "command": "dsaucisse",
+		"path": "https://www.myinstants.com/media/sounds/saucisses.mp3",
+		"description": "MisterMV les saucisses",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsoskur",
+		"path": "https://www.myinstants.com/media/sounds/oskur.mp3",
+		"description": "MisterMV OSKUR",
+		"volume": 0.20
+    },
+    {
+	    "command": "dswhyrun",
+		"path": "https://www.myinstants.com/media/sounds/why-are-you-running-original-vine-audiotrimmer_pJyxLm1.mp3",
+		"description": "Why are you running ?",
+		"volume": 0.20
+    },
+    {
+	    "command": "dsobjection",
+		"path": "https://www.myinstants.com/media/sounds/objection.mp3",
+		"description": "OBJECTION !! (from Phoenix Wright French version)",
+		"volume": 0.20
+    },
+    {
+	    "command": "dscalecon",
+		"path": "https://www.myinstants.com/media/sounds/calecon.mp3",
+		"description": "Jean-Marie LePen : Je vais lui retirer son caleçon",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsrouquin",
+		"path": "https://www.myinstants.com/media/sounds/rouquin.mp3",
+		"description": "Jean-Marie LePen : Je vais te faire courir rouquin",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsentence",
+		"path": "https://www.myinstants.com/media/sounds/sentence-irrevocable.mp3",
+		"description" : "Denis Brogniart : Leur sentence est irrévocable",
+		"volume": 0.20
+    },
+    {
+	    "command": "dsoof",
+		"path": "https://www.myinstants.com/media/sounds/uuhhh_evAtIOq.mp3",
+		"description": "OOF from Roblox",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsntm",
+		"path": "https://www.myinstants.com/media/sounds/euh-nique-ta-mere-marine-le-pen_0b5PDPG.mp3",
+		"description": "Marine LePen : Heu.. Nique ta mère",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsphub",
+		"path": "https://www.myinstants.com/media/sounds/pornhub-community-intro.mp3",
+		"description": "PornHUB intro",
+		"volume": 0.20
+    },
+    {
+	    "command": "dsdejavu",
+		"path": "https://www.myinstants.com/media/sounds/deja-vu.mp3",
+		"description": "Deja Vu music",
+		"volume": 0.20
+    },
+    {
+	    "command": "dsloldude",
+		"path": "https://www.myinstants.com/media/sounds/lol_33.mp3",
+		"description": "Lol look at this dude",
+		"volume": 0.20
+    },
+    {
+	    "command": "dsheheboi",
+		"path": "https://www.myinstants.com/media/sounds/ainsley_harriott_and_his_spicy_meatconverttoaudio.mp3",
+		"description": "Héhéééééé boiiiii",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsjojo",
+		"path": "https://www.myinstants.com/media/sounds/untitled_1071.mp3",
+		"description": "To be Continued Jojo",
+		"volume": 0.20
+    },
+    {
+	    "command": "dswow",
+		"path": "https://www.myinstants.com/media/sounds/wow-mlg-sound-effect.mp3",
+		"description": "Wow meme",
+		"volume": 0.35
+    },
+    {
+	    "command": "dscbo",
+		"path": "https://www.myinstants.com/media/sounds/anthologie-de-julien-lepers.mp3",
+		"description": "Julien Lepers : Oh oui c'est beau",
+		"volume": 0.25
+    },
+    {
+	    "command": "dsah",
+		"path": "https://www.myinstants.com/media/sounds/denis-brogniart-ah-original.mp3",
+		"description": "Denis Brogniart : Ah !",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsjcena",
+		"path": "https://www.myinstants.com/media/sounds/and-his-name-is-john-cena-1.mp3",
+		"description": "And his name is John Cena !!",
+		"volume": 0.15
+    },
+    {
+	    "command": "dsugoi",
+		"path": "https://www.myinstants.com/media/sounds/sugoi-sugoi.mp3",
+		"description": "Oh.. Sugoi sugoi !",
+		"volume": 0.35
+    },
+    {
+	    "command": "dshorn",
+		"path": "https://www.myinstants.com/media/sounds/mlg-airhorn.mp3",
+		"description": "Air horn mlg meme",
+		"volume": 0.2
+    },
+    {
+	    "command": "dsmjwow",
+		"path": "https://www.myinstants.com/media/sounds/wow_8.mp3",
+		"description": "Michael Jackson : Wow !",
+		"volume": 0.30
+    },
+    {
+	    "command": "dsnk",
+		"path": "https://www.myinstants.com/media/sounds/shingeki-no-kyojin-ost-attack-on-titan2.mp3",
+		"description": "SnK openning",
+		"volume": 0.20
+    },
+    {
+	    "command": "dsfaible",
+		"path": "https://www.myinstants.com/media/sounds/maillon.mp3",
+		"description": "Vous êtes le maillon faible",
+		"volume": 0.25
+    },
+    {
+	    "command": "dsbruh",
+		"path": "https://www.myinstants.com/media/sounds/movie_1.mp3",
+		"description": "BRUH",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsfusrodah",
+		"path": "https://www.myinstants.com/media/sounds/fus-ro-dah_4.mp3",
+		"description": "FUS RO DAH form Skyrim",
+		"volume": 0.25
+    },
+    {
+	    "command": "dstuturu",
+		"path": "https://www.myinstants.com/media/sounds/tuturu_1.mp3",
+		"description": "Tuturu Mayushii from Steins Gate",
+		"volume": 0.35
+    },
+    {
+	    "command": "dshurt",
+		"path": "https://www.myinstants.com/media/sounds/classic_hurt.mp3",
+		"description": "Minecraft hurt sound",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsrunbitch",
+		"path": "https://www.myinstants.com/media/sounds/run-bitch-ruun_part.mp3",
+		"description": "Run bitch ruuuun",
+		"volume": 0.35
+    },
+    {
+	    "command": "dshowhappen",
+		"path": "https://www.myinstants.com/media/sounds/how.mp3",
+		"description": "And how this happen to meeeee",
+		"volume": 0.2
+    },
+    {
+	    "command": "dsrire",
+		"path": "https://www.myinstants.com/media/sounds/rire-public.mp3",
+		"description": "Rire from sitcom",
+		"volume": 0.35
+    },
+    {
+	    "command": "dserror",
+		"path": "https://www.myinstants.com/media/sounds/erro.mp3",
+		"description": "Error sound Windows XP",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsinception",
+		"path": "https://www.myinstants.com/media/sounds/inceptionbutton.mp3",
+		"description": "Inception sound",
+		"volume": 0.30
+    },
+    {
+	    "command": "dsnope",
+		"path": "https://www.myinstants.com/media/sounds/engineer_no01.mp3",
+		"description": "Nope",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsdundun",
+		"path": "https://www.myinstants.com/media/sounds/dun-dun.mp3",
+		"description": "Law and Order dun-dun",
+		"volume": 0.35
+    },
+    {
+	    "command": "dsyeah",
+		"path": "https://www.myinstants.com/media/sounds/sound-9______.mp3",
+		"description": "YEEEEEAAAAAAAAAH",
+		"volume": 0.15
+    },
+    {
+	    "command": "dsnooo",
+		"path": "https://www.myinstants.com/media/sounds/nooo.swf.mp3",
+		"description": "Noooooooooo form Star Wars",
+		"volume": 0.25
+    },
+    {
+	    "command": "dsmetalgear",
+		"path": "https://www.myinstants.com/media/sounds/metalgearsolid.swf.mp3",
+		"description": "Metal Gear Solid guard sound",
+		"volume": 0.25
+    },
+    {
+	    "command": "dsdrama",
+		"path": "https://www.myinstants.com/media/sounds/dramatic.swf.mp3",
+		"description": "Dramatic Chipmunk",
+		"volume": 0.30
+    },
+    {
+	    "command": "dsrimshot",
+		"path": "https://www.myinstants.com/media/sounds/badumtss.swf.mp3",
+		"description": "Rimshot sound",
+		"volume": 0.25
+    }
+    ]
+}

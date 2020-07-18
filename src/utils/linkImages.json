@@ -1,0 +1,69 @@
+{
+    "MemeCommands" : [
+	{
+	    "argument": "NoLuck",
+		"path": "https://i.imgur.com/YdivZjV.jpg",
+		"description": "Larry Silverstein meme called *Pas de chance*."
+    },
+    {
+        "argument": "GotRef",
+		"path": "https://i.imgur.com/A28lyQb.jpg",
+		"description": "Michel Polnareff meme called *J'ai la reférence*"
+    },
+    {
+        "argument": "NoGotRef",
+		"path": "https://i.imgur.com/Gml57Tl.jpg",
+		"description": "Michel Polnareff meme called *J'ai pas la reférence*"
+    },
+    {
+        "argument": "Oof",
+		"path": "https://i.imgur.com/iq149ju.jpg",
+		"description": "Philippe Etchebest meme called *Oof classrom*"
+    },
+    {
+        "argument": "JSuper",
+		"path": "https://i.imgur.com/HrfMDEY.jpg",
+		"description": "Julien Lepers meme called *Julien Supers*"
+    },
+    {
+        "argument": "MDansMille",
+		"path": "https://i.imgur.com/WH4he7n.jpg",
+		"description": "Mark Hamill meme called *Mark Danlmill* (dans le mille)"
+    },
+    {
+        "argument": "JValider",
+		"path": "https://i.imgur.com/NgJJt2p.jpg",
+		"description": "Johnny Hallyday meme called *Johnny Validey*"
+    },
+    {
+        "argument": "PBest",
+		"path": "https://i.imgur.com/rWS1Oj8.jpg",
+		"description": "Philippe Etchebest meme called *Philippe t'es le best*"
+    },
+    {
+        "argument": "D1Police",
+		"path": "https://i.imgur.com/tWaDw6V.jpg",
+		"description": "Diamond Police for League of Legends"
+    },
+    {
+        "argument": "FBI",
+		"path": "https://i.imgur.com/t9U2HCi.jpg",
+		"description": "Ricardo Milos meme called *FBI*"
+    },
+    {
+        "argument": "Situation",
+		"path": "https://i.imgur.com/HMiqxrq.jpg",
+		"description": "Game meme called *In this situation*"
+    },
+    {
+        "argument": "BlindMS",
+		"path": "https://i.imgur.com/wL72gtC.jpg",
+		"description": "Youtube screen called *Blind myself for no reason*"
+    }],
+    "WhereCommands" : [
+    {
+        "argument": "Auguste",
+		"path": "https://i.imgur.com/xrNuV8P.jpg",
+		"description": "Auguste location in Darkest Dungeon"
+    }]
+}

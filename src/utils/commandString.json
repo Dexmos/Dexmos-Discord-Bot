@@ -1,0 +1,30 @@
+{
+    "HelpCommand" : [
+	{
+        "topic": "soundbox",
+        "description": ["I can be used at **soundbox** to give a special touch in your games or voice chat\n",
+        "- Use `!djoin` in any chat to make me join your voice channel. **You have to be in a voice channel before.**\n",
+        "- You can now use me as soundbox by typing command lines to make me play sounds.\n",
+        "To have the complete list of sounds I can play, use : `!dhelp soundlist`.\n",
+        "- Don't forget to use `!dleave` command to make me leave your voice channel.\n",
+        "**I'm working on sound-recognition bot to make DexmosBot like a GoogleHome**\n"]
+    },
+    {
+        "topic": "commands",
+        "description": [ "Available commands :\n",
+        "`!dhelp soundbox` -> Instructions on how to use DexmosBot as **soundbox**.\n",
+        "`!dwhere [Name]` -> know where is **[Name]**.\n",
+        "`!delo [Name]` -> league of legends elo of **[Name]**.\n",
+        "`!dmeme [Name]` -> Display memes.\n",
+        "**Note** that every day at 18h00[UTC+2], I'm gonna say *Ichizaemon's* elo on League of Legend. I'm not bullying him, he asked me for this.\n"
+    ]
+    }],
+    "SpecialCommands": [
+        {
+            "topic": "soundlist"
+        },
+        {
+            "topic": "meme"
+        }
+    ]
+}
