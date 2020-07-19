@@ -61,7 +61,7 @@ function messageEloCommand(qType, tier, rank, leaguePoints, wins, losses, embedM
 
 function checkRatio(wins, losses) {
     let calcPercent = (wins/(wins + losses) * 100).toFixed(1);
-    let string = "\n" + wins + "w/" + losses + "l" + "\nWin ratio: " + calcPercent + "%";
+    let string = "\n" + wins + "W/" + losses + "L" + "\nWin ratio: " + calcPercent + "%";
     
     return (string);
 }
