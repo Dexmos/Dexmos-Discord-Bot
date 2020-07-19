@@ -60,13 +60,14 @@ function messageEloCommand(qType, tier, rank, leaguePoints, wins, losses, embedM
 }
 
 function checkRatio(wins, losses) {
-    return ("\nRatio: " + wins + "w/" + losses + "l");
+    let calcPercent = (win/(win + loose) * 100).toFixed(1);
+    let string = "\n" + wins + "w/" + losses + "l" + "\nWin ratio: " + calcPercent + "%";
+    
+    return (string);
 }
 
 function checkLeaguePoints(leaguePoints) {
-    let string = leaguePoints + " LP";
-
-    return (string);
+    return (leaguePoints + " LP");
 }
 
 function checkRank(tier, rank) {
