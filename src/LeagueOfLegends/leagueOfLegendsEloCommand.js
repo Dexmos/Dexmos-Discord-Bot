@@ -35,7 +35,7 @@ function riotEloCommands(channel, author, summonerName, LeagueAPI, receivedMessa
             LeagueAPI.getLeagueRanking(accountInfo).then(function(accountInfo) {
                 for (let i = 0; accountInfo[i] != undefined; i++) {
                     messageEloCommand(accountInfo[i].queueType, accountInfo[i].tier, accountInfo[i].rank, accountInfo[i].leaguePoints, accountInfo[i].wins, accountInfo[i].losses, embedMessage);
-                    if (receivedMessage != null || receivedMessage != undefined) {
+                    if (receivedMessage != null && receivedMessage != undefined) {
                         reactOnElo(accountInfo[i].tier, receivedMessage);
                     }
                 }
@@ -43,10 +43,10 @@ function riotEloCommands(channel, author, summonerName, LeagueAPI, receivedMessa
                 embedMessage.setTimestamp();
                 channel.send(embedMessage).then(DexMsgSent => {
                     DexMsgSent.react(emoteID.LUL);
-                }).catch(console.log);
-            }).catch();                                                                  
+                });
+            }).catch((err) => {checkError(err, channel)});
             //LeagueAPI.getActiveGames(accountInfo).then(console.log).catch(console.log);                                                                    
-        }).catch();
+        }).catch((err) => {checkError(err, channel)});
 }
 
 function messageEloCommand(qType, tier, rank, leaguePoints, wins, losses, embedMessage) {
@@ -167,4 +167,8 @@ function reactOnElo(tier, receivedMessage) {
         default:
             break;
     }
+}
+
+function checkError(err, channelToSend) {
+    return (channelToSend.send(err.status.message));
 }
