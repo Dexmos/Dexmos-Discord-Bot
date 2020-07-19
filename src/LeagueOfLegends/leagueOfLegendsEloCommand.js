@@ -34,7 +34,7 @@ function riotEloCommands(channel, author, summonerName, LeagueAPI, receivedMessa
         .then(function(accountInfo) {
             LeagueAPI.getLeagueRanking(accountInfo).then(function(accountInfo) {
                 for (let i = 0; accountInfo[i] != undefined; i++) {
-                    messageEloCommand(accountInfo[i].queueType, accountInfo[i].tier, accountInfo[i].rank, accountInfo[i].leaguePoints, embedMessage);
+                    messageEloCommand(accountInfo[i].queueType, accountInfo[i].tier, accountInfo[i].rank, accountInfo[i].leaguePoints, accountInfo[i].wins, accountInfo[i].losses, embedMessage);
                     if (receivedMessage != null || receivedMessage != undefined) {
                         reactOnElo(accountInfo[i].tier, receivedMessage);
                     }
@@ -49,13 +49,18 @@ function riotEloCommands(channel, author, summonerName, LeagueAPI, receivedMessa
         }).catch();
 }
 
-function messageEloCommand(qType, tier, rank, leaguePoints, embedMessage) {
+function messageEloCommand(qType, tier, rank, leaguePoints, wins, losses, embedMessage) {
     let queueType = checkQueueType(qType);
     let tierType = checkTier(tier);
     let rankleague = checkRank(tier, rank);
     let lp = checkLeaguePoints(leaguePoints);
+    let ratio = checkRatio(wins, losses);
 
-    embedMessage.addField(queueType, tierType + rankleague + lp, true);
+    embedMessage.addField(queueType, tierType + rankleague + lp + ratio, true);
+}
+
+function checkRatio(wins, losses) {
+    return ("\nRatio: " + wins + "w/" + losses + "l");
 }
 
 function checkLeaguePoints(leaguePoints) {
