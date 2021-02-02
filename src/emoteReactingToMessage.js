@@ -20,8 +20,7 @@ function checkMessageToReact(receivedMessage)
         receivedMessage.react(emoteID.AYAYA);
     }
     if (strWithoutCaps.includes("zpr") || strWithoutCaps.includes("zephyr")) {
-        receivedMessage.channel.send("FireSprit was the problem <:Kappa:" + emoteID.Kappa + ">");
-        receivedMessage.react(emoteID.Kappa);
+        receivedMessage.channel.send("FireSprit was the problem <:Kappa:" + emoteID.Kappa + ">").react(emoteID.Kappa);
     }
     return;
 }
