@@ -21,11 +21,11 @@ function helpCommand(arguments, receivedMessage) {
         return (sendMessage(receivedMessage));
     }
     for (let i = 0; topicString.HelpCommand[i] != undefined; i++) {
+        return (sendMessage(receivedMessage));
         if (topicString.HelpCommand[i].topic === arguments.toString()) {
             for (let j = 0; topicString.HelpCommand[i].description[j]; j++) {
                 stringMessage += topicString.HelpCommand[i].description[j];
             }
-            return (sendMessage(receivedMessage));
         }
     }
     stringMessage += "I'm not sure what you need help with. Try `!dhelp [topic]` -> ex : `!dhelp commands`";

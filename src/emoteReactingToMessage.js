@@ -13,23 +13,15 @@ function checkMessageToReact(receivedMessage)
     if (strWithoutCaps.includes("lul")) {
         receivedMessage.react(emoteID.LUL);
     }
-    if (strWithoutCaps.includes("pog")) {
-        receivedMessage.react(emoteID.POG);
-    }
-    if (strWithoutCaps.includes("kappa") || strWithoutCaps.includes("fuck")) {
+    if (strWithoutCaps.includes("kappa")) {
         receivedMessage.react(emoteID.Kappa);
-    }
-    if (strWithoutCaps.includes("allan")) {
-        receivedMessage.react(emoteID.AllanTheBoss);
-    }
-    if (strWithoutCaps.includes("yan")) {
-        receivedMessage.react(emoteID.Yantriggered);
     }
     if (strWithoutCaps.includes("ayaya")) {
         receivedMessage.react(emoteID.AYAYA);
     }
-    if (strWithoutCaps.includes("wtf") || strWithoutCaps.includes("erh")) {
-        receivedMessage.react(emoteID.WutFace);
+    if (strWithoutCaps.includes("zpr") || strWithoutCaps.includes("zephyr")) {
+        receivedMessage.channel.send("FireSprit was the problem <:Kappa:" + emoteID.Kappa + ">");
+        receivedMessage.react(emoteID.Kappa);
     }
     return;
 }
