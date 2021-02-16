@@ -19,8 +19,5 @@ function checkMessageToReact(receivedMessage)
     if (strWithoutCaps.includes("ayaya")) {
         receivedMessage.react(emoteID.AYAYA);
     }
-    if (strWithoutCaps.includes("zpr") || strWithoutCaps.includes("zephyr")) {
-        receivedMessage.channel.send("FireSprit was the problem <:Kappa:" + emoteID.Kappa + ">");
-    }
     return;
 }

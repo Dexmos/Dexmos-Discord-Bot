@@ -109,6 +109,6 @@ let ruleEloIchizaemon = new schedule.RecurrenceRule();
 ruleEloIchizaemon.hour = 16; // + 2hours for UTC+2 (France)
 ruleEloIchizaemon.minute = 00;
 
-let scheduleEloIchizeamon = schedule.scheduleJob(ruleEloIchizaemon, function() {
+/*let scheduleEloIchizeamon = schedule.scheduleJob(ruleEloIchizaemon, function() {
     riotElo.reminderElo("Ichizaemon", DexBot, LeagueAPI);
-});
+});*/
